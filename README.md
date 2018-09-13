@@ -1,4 +1,4 @@
-# bonyad.github.io/tahrir/
+# hafez-fal.ir
 
 This repo uses Mira
 
@@ -15,7 +15,7 @@ sudo cpan -i -T Mira
 ## Building
 
 ``` bash
-git clone https://github.com/bonyad/tahrir.git
+git clone https://github.com/bonyad/hafez-fal.ir.git
 cd blog
 mira build
 mira view
