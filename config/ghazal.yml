@@ -3,10 +3,8 @@ description: تفالی بر غزل حافظ
 author: bonyad
 language: Farsi
 
-url: https://bonyad.github.io/hafez-fal/
-root: /hafez-fal/
-
-manifest: /hafez-fal/manifest.webmanifest
+url: https://hafez-fal.ir/
+root: /
 
 default_extension: md
 
