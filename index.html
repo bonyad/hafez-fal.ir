@@ -18,8 +18,8 @@
   <link rel="alternative" href="/atom.xml" title="" type="application/atom+xml">
   <link rel="short icon" href="/static/theme/hafez-fal/img/icon.png">
 
-  <link rel="stylesheet" href="/static//theme/tahrir/css/bootstrap.css" type="text/css">
-  <link rel="stylesheet" href="/static//theme/tahrir/css/cover.css">
+  <link rel="stylesheet" href="/static/theme/tahrir/css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="/static/theme/tahrir/css/cover.css">
 
   <link rel="manifest" href="">
 
@@ -33,15 +33,15 @@
           <h3 class="masthead-brand">فال حافظ</h3>
           <nav class="nav nav-masthead justify-content-center">
             <a class="nav-link" href="/">خانه</a>
-            <a class="nav-link" href="/list/غزلیات/">غزلیات</a>
-            <a class="nav-link" href="#">درباره</a>
+            <a class="nav-link" href="/list/غزلیات/">فهرست الفبایی</a>
+            <a class="nav-link" href="#">درباره ما</a>
           </nav>
         </div>
       </header>
 
       <main role="main" class="inner cover">
         <h1 class="cover-heading">فال حافظ</h1>
-        <p class="lead">جهت گرفتن فال، نیت کنید و بر روی دکمه فال ضربه بزنید</p>
+        <p class="lead">جهت گرفتن فال نیت کرده و سپس بر روی دکمه «گرفتن فال» کلیک کنید</p>
         <p class="lead">
           <a href="#" class="btn btn-lg btn-secondary" onclick="getRandomaddr(1, 496)">گرفتن فال</a>
         </p>
@@ -61,7 +61,7 @@
         max = Math.floor(max);
         var myNumber = Math.floor(Math.random() * (max - min)) + min;
         var formattedNumber = ("000" + myNumber).substr(-3);
-        var address = "/tahrir/ghazal/" + formattedNumber + "/";
+        var address = "ghazal/" + formattedNumber + "/";
         window.location.href = address;
       }
     </script>
