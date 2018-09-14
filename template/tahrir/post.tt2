@@ -21,17 +21,20 @@
   <link rel="stylesheet" href="{{ MAIN.static }}/theme/tahrir/css/bootstrap.css" type="text/css">
   <link rel="stylesheet" href="{{ MAIN.static }}/theme/tahrir/css/cover.css">
 
+  <link rel="manifest" href="{{ SITE.manifest }}">
+
+
 </head>
 <body class="text-center">
 
   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
     <header class="masthead">
       <div class="inner">
-          <h3 class="masthead-brand" href="#" onclick="getRandomaddr(1, 496)">{{ SITE.title }}</h3>
-          <nav class="nav nav-masthead justify-content-center">
+        <h3 class="masthead-brand">{{ SITE.title }}</h3>
+        <nav class="nav nav-masthead justify-content-center">
           <a class="nav-link" href="{{ SITE.root }}">خانه</a>
-          <a class="nav-link" href="{{ SITE.root }}list/غزلیات/">فهرست الفبایی</a>
-          <a class="nav-link" href="#">درباره ما</a>
+          <a class="nav-link" href="{{ SITE.root }}list/غزلیات/">غزلیات</a>
+          <a class="nav-link" href="#">درباره</a>
         </nav>
       </div>
     </header>
@@ -50,7 +53,9 @@
                 </div>
               {{ END }}
               </div>
+              <div class="int-body">
                 {{ post.body.more }}
+              </div>
             </section>
           
           </article>
@@ -94,7 +99,7 @@
         max = Math.floor(max);
         var myNumber = Math.floor(Math.random() * (max - min)) + min;
         var formattedNumber = ("000" + myNumber).substr(-3);
-        var address = "/ghazal/" + formattedNumber + "/";
+        var address = "/tahrir/ghazal/" + formattedNumber + "/";
         window.location.href = address;
       }
     </script>
