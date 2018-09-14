@@ -1,6 +1,6 @@
 ---
 utid: 20180914000000
-title: درباره
+title: درباره این سایت
 _index: about
 _permalink: /:title/
 _type: page
