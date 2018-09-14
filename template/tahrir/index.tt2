@@ -41,7 +41,7 @@
 
       <main role="main" class="inner cover">
         <h1 class="cover-heading">فال حافظ</h1>
-        <p class="lead">جهت گرفتن  نیت کنید و بر روی دکمه «گرفتن فال» کلیک کنید</p>
+        <p class="lead">جهت گرفتن فال نیت کرده و سپس بر روی دکمه «گرفتن فال» کلیک کنید</p>
         <p class="lead">
           <a href="#" class="btn btn-lg btn-secondary" onclick="getRandomaddr(1, 496)">گرفتن فال</a>
         </p>
