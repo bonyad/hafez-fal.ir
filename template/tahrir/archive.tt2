@@ -18,8 +18,8 @@
   <link rel="alternative" href="{{ SITE.root }}atom.xml" title="{{ TITLE }}" type="application/atom+xml">
   <link rel="short icon" href="{{ SITE.icon }}">
 
-  <link rel="stylesheet" href="{{ MAIN.static }}/theme/tahrir/css/bootstrap.css" type="text/css">
-  <link rel="stylesheet" href="{{ MAIN.static }}/theme/tahrir/css/cover.css">
+  <link rel="stylesheet" href="{{ MAIN.static }}theme/tahrir/css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="{{ MAIN.static }}theme/tahrir/css/cover.css">
 
   <link rel="manifest" href="{{ SITE.manifest }}">
 
