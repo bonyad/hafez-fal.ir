@@ -21,9 +21,6 @@
   <link rel="stylesheet" href="{{ MAIN.static }}theme/tahrir/css/bootstrap.css" type="text/css">
   <link rel="stylesheet" href="{{ MAIN.static }}theme/tahrir/css/cover.css">
 
-  <link rel="manifest" href="{{ SITE.manifest }}">
-
-
 </head>
 <body class="text-center">
 
