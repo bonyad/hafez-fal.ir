@@ -9,7 +9,7 @@ root: /
 
 static: /static/
 
-icon: /static/theme/hafez-fal/img/icon.png
+icon: /static/theme/tahrir/img/icon.png
 
 post_num: all
 archive_post_num: all
