@@ -21,17 +21,20 @@
   <link rel="stylesheet" href="/static//theme/tahrir/css/bootstrap.css" type="text/css">
   <link rel="stylesheet" href="/static//theme/tahrir/css/cover.css">
 
+  <link rel="manifest" href="">
+
+
 </head>
 <body class="text-center">
 
   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
     <header class="masthead">
       <div class="inner">
-          <h3 class="masthead-brand" href="#" onclick="getRandomaddr(1, 496)">فال حافظ</h3>
-          <nav class="nav nav-masthead justify-content-center">
+        <h3 class="masthead-brand">فال حافظ</h3>
+        <nav class="nav nav-masthead justify-content-center">
           <a class="nav-link" href="/">خانه</a>
-          <a class="nav-link" href="/list/غزلیات/">فهرست الفبایی</a>
-          <a class="nav-link" href="#">درباره ما</a>
+          <a class="nav-link" href="/list/غزلیات/">غزلیات</a>
+          <a class="nav-link" href="#">درباره</a>
         </nav>
       </div>
     </header>
@@ -142,8 +145,10 @@
                 </div>
               
               </div>
+              <div class="int-body">
                 <a name="more"></a>
 
+              </div>
             </section>
           
           </article>
@@ -185,7 +190,7 @@
         max = Math.floor(max);
         var myNumber = Math.floor(Math.random() * (max - min)) + min;
         var formattedNumber = ("000" + myNumber).substr(-3);
-        var address = "/ghazal/" + formattedNumber + "/";
+        var address = "/tahrir/ghazal/" + formattedNumber + "/";
         window.location.href = address;
       }
     </script>
