@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="Farsi">
 <head>
-  <title>غزل شماره ۹۵ - خیال</title>
+  <title>غزل شماره ۹۵ - فال حافظ</title>
 
   <meta charset="utf-8">
-  <meta name="description" content="تفالی بر غزل حافظ">
+  <meta name="description" content="تفالی بر اشعار حافظ">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta property="og:type" content="website">
   <meta property="og:title" content="">
   <meta property="og:url" content="https://hafez-fal.ir/">
-  <meta property="og:site_name" content="خیال">
+  <meta property="og:site_name" content="فال حافظ">
   <meta property="og:description" content="">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="">
@@ -27,11 +27,11 @@
   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
     <header class="masthead">
       <div class="inner">
-        <h3 class="masthead-brand">خیال</h3>
-        <nav class="nav nav-masthead justify-content-center">
+          <h3 class="masthead-brand" href="#" onclick="getRandomaddr(1, 496)">فال حافظ</h3>
+          <nav class="nav nav-masthead justify-content-center">
           <a class="nav-link" href="/">خانه</a>
-          <a class="nav-link" href="/list/غزلیات/">غزلیات</a>
-          <a class="nav-link" href="#">درباره</a>
+          <a class="nav-link" href="/list/غزلیات/">فهرست الفبایی</a>
+          <a class="nav-link" href="#">درباره ما</a>
         </nav>
       </div>
     </header>
@@ -145,7 +145,7 @@
         max = Math.floor(max);
         var myNumber = Math.floor(Math.random() * (max - min)) + min;
         var formattedNumber = ("000" + myNumber).substr(-3);
-        var address = "/tahrir/ghazal/" + formattedNumber + "/";
+        var address = "/ghazal/" + formattedNumber + "/";
         window.location.href = address;
       }
     </script>
