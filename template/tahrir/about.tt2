@@ -43,14 +43,7 @@
             <h2 class="title" itemprop="name">{{ post.title }}</h2>
           
             <section class="content">
-              <div class="row poem">
-              {{ FOREACH line IN post.mesra }}
-                <div class="mesra {{ loop.parity }} col-sm-12 col-md-6">
-                  {{ line }}
-                </div>
-              {{ END }}
-              </div>
-              <div class="int-body">
+              <div class="about-body">
                 {{ post.body.more }}
               </div>
             </section>
@@ -59,28 +52,6 @@
           {{ END }}
       </section>
     </main>
-
-    <section class="page-nav">
-      <div class="row">
-        <div class="col-6 text-right">
-        {{ IF PAGE.prev }}
-          <a rel="prev" href="{{ PAGE.prev.url }}">
-            <i><-</i>
-            <span>{{ PAGE.prev.title }}</span>
-          </a>
-        {{- END }}
-        </div>
-        <div class="col-6 text-left">
-        {{ IF PAGE.next }}
-          <a class="col-6 text-left" rel="next" href="{{ PAGE.next.url }}">
-            <span>{{ PAGE.next.title }}</span>
-            <i>-></i>
-          </a>
-        {{- END }}
-        </div>
-      </div>
-      </nav>
-    </section>
 
     <footer class="mastfoot mt-auto">
       <div class="inner">
